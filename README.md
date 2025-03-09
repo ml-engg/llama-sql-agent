@@ -1,9 +1,9 @@
-This is a sql genration code leveraging llama 3 - 8B model 
+sql agent solution leveraging llama 3 - 8B model 
 ----------------------------------------------------------
 
-The code also used chromadb vector database to store tables description
+The code used chromadb vector database to store tables description
   
- -This will be passed on as additional context to the llm 
+ -This will be passed on as additional context to the llm
 
 Special instructions are also provided in the prompt to make it more accurate.
   
