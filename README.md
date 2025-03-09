@@ -1,14 +1,15 @@
 This is a sql genration code leveraging llama 3 - 8B model 
+----------------------------------------------------------
 
 The code also used chromadb vector database to store tables description
   
-  -This will be passed on as additional context to the llm 
+ -This will be passed on as additional context to the llm 
 
 Special instructions are also provided in the prompt to make it more accurate.
   
   -For example if continent is passed on, llama will be able to modify that for countries as well 
 
-
+----------------------------------------------------------
 Steps to be take to make it production ready 
   
   -Introduce guradrails for the llm models -- For security 
